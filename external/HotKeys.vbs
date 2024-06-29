@@ -1,0 +1,1 @@
+CreateObject("WScript.Shell").Run """C:\Users\xuyiwen\Documents\scripts\taskschd\init.ahk.lnk"""

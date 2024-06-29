@@ -1,0 +1,217 @@
+﻿{
+  "barrier": {
+    "process": "barrier",
+    "link": "Barrier"
+  },
+  "clion": {
+    "process": "clion64",
+    "link": [
+      "CLion",
+      "CLion *"
+    ]
+  },
+  "devdocs": {
+    "process": "DevDocs",
+    "link": "DevDocs",
+    "parallels": {
+      "alternative": "Dash",
+      "alternative_preferred": true
+    }
+  },
+  "edge": {
+    "process": "msedge",
+    "link": "Microsoft Edge",
+    "parallels": {
+      "link": [
+        "Microsoft Edge",
+        "Microsoft Edge Dev"
+      ]
+    }
+  },
+  "everything": {
+    "process": "Everything",
+    "link": "Everything"
+  },
+  "excel": {
+    "process": "EXCEL",
+    "link": "Excel",
+    "parallels": {
+      "link": "Microsoft Excel"
+    }
+  },
+  "explorer": {
+    "process": "explorer",
+    "run": "explorer",
+    "class": "ahk_class CabinetWClass"
+  },
+  "geek-uninstaller": {
+    "process": "geek64",
+    "link": "Geek Uninstaller"
+  },
+  "gimp": {
+    "process": "gimp-*",
+    "link": "GIMP *"
+  },
+  "google-chrome": {
+    "process": "chrome",
+    "link": "Google Chrome"
+  },
+  "idea": {
+    "process": "idea64",
+    "link": "IntelliJ IDEA *"
+  },
+  "klatexformula": {
+    "process": "klatexformula",
+    "link": "KLatexFormula"
+  },
+  "matlab": {
+    "process": "MATLAB",
+    "link": "MATLAB R*",
+    "parallels": {
+      "link": "MATLAB_R*"
+    }
+  },
+  "microsoft-remote-desktop": {
+    "process": "mstsc",
+    "run": "mstsc"
+  },
+  "monocloud": {
+    "process": "MonoCloud_V*",
+    "link": "Monocloud"
+  },
+  "mydockfinder": {
+    "process": "Dockmod",
+    "url": "Steam\\MyDockFinder.url"
+  },
+  "notepad": {
+    "process": "Notepad",
+    "run": "notepad"
+  },
+  "powerpoint": {
+    "process": "POWERPNT",
+    "link": "PowerPoint",
+    "parallels": {
+      "link": "Microsoft PowerPoint",
+      "alternative": "Keynote"
+    }
+  },
+  "pycharm": {
+    "process": "pycharm64",
+    "link": "PyCharm *"
+  },
+  "qq": {
+    "process": "QQ",
+    "link": "腾讯QQ",
+    "parallels": {
+      "link": "QQ"
+    },
+    "title": "QQ",
+    "title_mode": "3",
+    "hidden": "1"
+  },
+  "qqgame": {
+    "process": "QQGame",
+    "link": "QQ游戏"
+  },
+  "qqgame:hapdk": {
+    "process": "HAPDK",
+    "link": "QQ游戏"
+  },
+  "qqmusic": {
+    "process": "QQMusic",
+    "link": "QQ音乐",
+    "parallels": {
+      "link": "QQMusic"
+    }
+  },
+  "remote-desktop-manager": {
+    "process": "RemoteDesktopManager",
+    "link": "Remote Desktop Manager* (RDM)",
+    "parallels": {
+      "link": "Remote Desktop Manager*"
+    }
+  },
+  "settings": {
+    "process": "ApplicationFrameHost",
+    "run": "ms-settings:",
+    "title": "设置"
+  },
+  "shadowsocks": {
+    "process": "Shadowsocks",
+    "link": "Shadowsocks"
+  },
+  "spyxx": {
+    "process": ["spyxx", "spyxx_amd64"]
+  },
+  "sublime-text": {
+    "process": "sublime_text",
+    "link": "Sublime Text"
+  },
+  "taskmanager": {
+    "process": "Taskmgr",
+    "run": "Taskmgr"
+  },
+  "tencent-meeting": {
+    "process": "wemeetapp",
+    "link": "腾讯会议",
+    "parallels": {
+      "link": "TencentMeeting"
+    }
+  },
+  "terminal": {
+    "process": "WindowsTerminal",
+    "run": "wt"
+  },
+  "termius": {
+    "process": "Termius",
+    "link": "Termius"
+  },
+  "typora": {
+    "process": "Typora",
+    "link": "Typora"
+  },
+  "updf": {
+    "process": "UPDF",
+    "link": "UPDF",
+    "parallels": {
+      "alternative": "PDF Expert",
+      "alternative_preferred": true
+    }
+  },
+  "v2rayn": {
+    "process": "v2rayN",
+    "link": "v2rayN",
+    "title": "v2rayN",
+    "hidden": "1"
+  },
+  "vnc-viewer": {
+    "process": "vncviewer",
+    "link": "VNC Viewer"
+  },
+  "vs": {
+    "process": "devenv",
+    "run": "devenv"
+  },
+  "vscode": {
+    "process": "Code",
+    "link": "Visual Studio Code"
+  },
+  "wechat": {
+    "process": "WeChat",
+    "link": "微信",
+    "parallels": {
+      "link": "WeChat"
+    }
+  },
+  "word": {
+    "process": "WINWORD",
+    "link": "Word",
+    "parallels": {
+      "link": "Microsoft Word"
+    }
+  },
+  "wps-office": {
+    "process": "wps",
+    "link": "WPS Office"
+  }
+}

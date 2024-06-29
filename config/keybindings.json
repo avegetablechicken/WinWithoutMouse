@@ -1,0 +1,592 @@
+{
+  "hyper": {
+    "hyper": "CapsLock",
+    "app": ["alt", "control"],
+    "daemon": ["shift", "alt"],
+    "controlCenter": ["shift", "win"],
+    "moveTo": ["alt", "control"],
+    "moveTowards": ["shift", "alt", "control"],
+    "moveToDesktop": ["win", "control"],
+    "focusDesktop": "win"
+  },
+
+  "parameters": {
+    "windowMoveStep": 100,
+    "windowZoomToCenterSize": { "w": 830, "h": 750 }
+  },
+
+  "hotkeys": {
+    "global": {
+      "reloadHotkeys": {
+        "mods": "${hyper.daemon}",
+        "key": "R"
+      },
+      "toggleHotkeys": {
+        "mods": ["shift", "win", "alt"],
+        "key": "R"
+      },
+      "showCurrentWindowInfo": {
+        "mods": "${hyper.daemon}",
+        "key": "G"
+      },
+      "showProxyMenu": {
+        "mods": "${hyper.daemon}",
+        "key": "X"
+      },
+      "toggleTaskbarOrMyDock": {
+        "mods": ["alt", "control"],
+        "key": "D"
+      },
+      "moveToTopLeft": {
+        "mods": "${hyper.moveTo}",
+        "key": "1"
+      },
+      "moveToTop": {
+        "mods": "${hyper.moveTo}",
+        "key": "2"
+      },
+      "moveToTopRight": {
+        "mods": "${hyper.moveTo}",
+        "key": "3"
+      },
+      "moveToLeft": {
+        "mods": "${hyper.moveTo}",
+        "key": "4"
+      },
+      "moveToCenter": {
+        "mods": "${hyper.moveTo}",
+        "key": "5"
+      },
+      "moveToRight": {
+        "mods": "${hyper.moveTo}",
+        "key": "6"
+      },
+      "moveToBottomLeft": {
+        "mods": "${hyper.moveTo}",
+        "key": "7"
+      },
+      "moveToBottom": {
+        "mods": "${hyper.moveTo}",
+        "key": "8"
+      },
+      "moveToBottomRight": {
+        "mods": "${hyper.moveTo}",
+        "key": "9"
+      },
+      "moveTowardsTopLeft": {
+        "mods": "${hyper.moveTowards}",
+        "key": "1"
+      },
+      "moveTowardsTop": {
+        "mods": "${hyper.moveTowards}",
+        "key": "2"
+      },
+      "moveTowardsTopRight": {
+        "mods": "${hyper.moveTowards}",
+        "key": "3"
+      },
+      "moveTowardsLeft": {
+        "mods": "${hyper.moveTowards}",
+        "key": "4"
+      },
+      "moveTowardsRight": {
+        "mods": "${hyper.moveTowards}",
+        "key": "6"
+      },
+      "moveTowardsBottomLeft": {
+        "mods": "${hyper.moveTowards}",
+        "key": "7"
+      },
+      "moveTowardsBottom": {
+        "mods": "${hyper.moveTowards}",
+        "key": "8"
+      },
+      "moveTowardsBottomRight": {
+        "mods": "${hyper.moveTowards}",
+        "key": "9"
+      },
+      "toggleMaximize": {
+        "mods": ["alt", "control"],
+        "key": "0"
+      },
+      "toggleZoomToCenter": {
+        "mods": ["shift", "alt", "control"],
+        "key": "5"
+      },
+      "zoomToLeft": {
+        "mods": ["shift", "control"],
+        "key": ";"
+      },
+      "zoomToRight": {
+        "mods": ["shift", "control"],
+        "key": "'"
+      },
+      "zoomToTopLeft": {
+        "mods": ["alt", "control"],
+        "key": ";"
+      },
+      "zoomToTopRight": {
+        "mods": ["alt", "control"],
+        "key": "'"
+      },
+      "zoomToBottomLeft": {
+        "mods": ["shift", "alt", "control"],
+        "key": ";"
+      },
+      "zoomToBottomRight": {
+        "mods": ["shift", "alt", "control"],
+        "key": "'"
+      },
+      "toggleDesktop": {
+        "mods": ["win", "control"],
+        "key": "D"
+      },
+      "toggleFullScreen": {
+        "mods": ["win", "control"],
+        "key": "F"
+      },
+      "moveToNextDesktop": {
+        "mods": "${hyper.moveToDesktop}",
+        "key": "right"
+      },
+      "moveToPrevDesktop": {
+        "mods": "${hyper.moveToDesktop}",
+        "key": "left"
+      },
+      "focusNextDesktop": {
+        "mods": "${hyper.focusDesktop}",
+        "key": "right"
+      },
+      "focusPrevDesktop": {
+        "mods": "${hyper.focusDesktop}",
+        "key": "left"
+      },
+      "transparentPlus": {
+        "mods": "win",
+        "key": "="
+      },
+      "transparentMinus": {
+        "mods": "win",
+        "key": "-"
+      },
+      "screenShot": {
+        "mods": ["shift", "control"],
+        "key": "4"
+      },
+      "showClipboardHistory": {
+        "mods": ["shift", "control"],
+        "key": "V"
+      },
+      "focusSystemTray": {
+        "mods": "win",
+        "key": "F1"
+      },
+      "focusTaskbarIcon": {
+        "mods": "win",
+        "key": "F3"
+      },
+      "toggleSystemTray": {
+        "mods": "${hyper.daemon}",
+        "key": "E"
+      },
+      "toggleTaskView": {
+        "mods": "win",
+        "key": "Up"
+      },
+      "toggleQuickSettings": {
+        "mods": "${hyper.controlCenter}",
+        "key": "C"
+      },
+      "toggleNotificationCenter": {
+        "mods": ["shift", "win", "alt"],
+        "key": "C"
+      }
+    },
+
+    "appkeys": {
+      "qq": [
+        {
+          "mods": "${hyper.app}",
+          "key": "Q"
+        },
+        {
+          "mods": ["shift", "alt", "control"],
+          "key": "Q",
+          "launch": true
+        }
+      ],
+      "wechat": {
+        "mods": "${hyper.app}",
+        "key": "W"
+      },
+      "remote-desktop-manager": {
+        "mods": "${hyper.app}",
+        "key": "R"
+      },
+      "everything": {
+        "mods": "${hyper.app}",
+        "key": "E"
+      },
+      "terminal": [
+        {
+          "mods": "${hyper.app}",
+          "key": "T"
+        },
+        {
+          "mods": ["shift", "alt", "control"],
+          "key": "T",
+          "launch": true,
+          "admin": true
+        }
+      ],
+      "devdocs": {
+        "mods": "${hyper.app}",
+        "key": "A"
+      },
+      "sublime-text": {
+        "mods": "${hyper.app}",
+        "key": "S"
+      },
+      "explorer": {
+        "mods": "${hyper.app}",
+        "key": "F"
+      },
+      "qqgame": {
+        "mods": "${hyper.app}",
+        "key": "G"
+      },
+      "google-chrome": {
+        "mods": ["shift", "alt", "control"],
+        "key": "Z"
+      },
+      "edge": {
+        "mods": "${hyper.app}",
+        "key": "Z"
+      },
+      "vscode": {
+        "mods": "${hyper.app}",
+        "key": "X"
+      },
+      "geek-uninstaller": {
+        "mods": "${hyper.app}",
+        "key": "U",
+        "admin": true
+      },
+      "powerpoint": {
+        "mods": "${hyper.app}",
+        "key": "P"
+      },
+      "typora": {
+        "mods": "${hyper.app}",
+        "key": "K"
+      },
+      "updf": {
+        "mods": "${hyper.app}",
+        "key": "L"
+      },
+      "tencent-meeting": {
+        "mods": "${hyper.app}",
+        "key": "M"
+      },
+      "qqmusic": {
+        "mods": "${hyper.hyper}",
+        "key": "Q"
+      },
+      "microsoft-remote-desktop": {
+        "mods": "${hyper.hyper}",
+        "key": "R"
+      },
+      "termius": {
+        "mods": "${hyper.hyper}",
+        "key": "T"
+      },
+      "wps-office": {
+        "mods": "${hyper.hyper}",
+        "key": "O"
+      },
+      "pycharm": {
+        "mods": "${hyper.hyper}",
+        "key": "P"
+      },
+      "sourcetree": {
+        "mods": "${hyper.hyper}",
+        "key": "S"
+      },
+      "taskmanager": {
+        "mods": "${hyper.hyper}",
+        "key": "H"
+      },
+      "idea": {
+        "mods": "${hyper.hyper}",
+        "key": "J"
+      },
+      "klatexformula": {
+        "mods": "${hyper.hyper}",
+        "key": "K"
+      },
+      "texstudio": {
+        "mods": "${hyper.hyper}",
+        "key": "L"
+      },
+      "settings": {
+        "mods": "${hyper.hyper}",
+        "key": "Z"
+      },
+      "vs": {
+        "mods": "${hyper.hyper}",
+        "key": "X"
+      },
+      "clion": {
+        "mods": "${hyper.hyper}",
+        "key": "C"
+      },
+      "vnc-viewer": {
+        "mods": "${hyper.hyper}",
+        "key": "V"
+      },
+      "matlab": {
+        "mods": "${hyper.hyper}",
+        "key": "M"
+      },
+      "barrier": {
+        "mods": "${hyper.daemon}",
+        "key": "B"
+      }
+    },
+
+    "appCommon": {
+      "quitApp": {
+        "mods": "control",
+        "key": "Q"
+      },
+      "closeWindow": {
+        "mods": "control",
+        "key": "W"
+      },
+      "closeAll": {
+        "mods": ["shift", "control"],
+        "key": "W"
+      },
+      "minimizeWindow": {
+        "mods": "control",
+        "key": "M"
+      },
+      "previousTab": {
+        "mods": ["shift", "control"],
+        "key": "["
+      },
+      "nextTab": {
+        "mods": ["shift", "control"],
+        "key": "]"
+      }
+    },
+
+    "UWP": {
+      "back": {
+        "mods": "control",
+        "key": "["
+      }
+    },
+
+    "explorer": {
+      "showInfo": {
+        "mods": "control",
+        "key": "I"
+      },
+      "refresh": {
+        "mods": "control",
+        "key": "R"
+      },
+      "openParentFolder": {
+        "mods": "control",
+        "key": "Up"
+      },
+      "openSelectedFolder": {
+        "mods": "control",
+        "key": "Down"
+      },
+      "back": {
+        "mods": "control",
+        "key": "["
+      },
+      "forward": {
+        "mods": "control",
+        "key": "]"
+      },
+      "toggleDisplayHiddenFiles": {
+        "mods": ["shift", "control"],
+        "key": "."
+      },
+      "copyPath": {
+        "mods": ["alt", "control"],
+        "key": "C"
+      }
+    },
+    "spyxx": {
+      "showInfo": {
+        "mods": "control",
+        "key": "I"
+      }
+    },
+    "mydockfinder": {
+      "showLaunchPad": {
+        "mods": ["alt", "control"],
+        "key": "Tab",
+        "background": true
+      },
+      "toggleControlCenter": {
+        "mods": ["shift", "win", "control"],
+        "key": "C",
+        "background": true
+      },
+      "toggleMenuBarTray": {
+        "mods": ["shift", "alt", "control"],
+        "key": "E",
+        "background": true
+      }
+    },
+    "edge": {
+      "forward": {
+        "mods": "control",
+        "key": "]"
+      },
+      "back": {
+        "mods": "control",
+        "key": "["
+      },
+      "showHistory": {
+        "mods": "control",
+        "key": "Y"
+      },
+      "showDownloads": {
+        "mods": ["shift", "control"],
+        "key": "J"
+      },
+      "settings": {
+        "mods": "control",
+        "key": ","
+      }
+    },
+    "google-chrome": {
+      "forward": {
+        "mods": "control",
+        "key": "]"
+      },
+      "back": {
+        "mods": "control",
+        "key": "["
+      },
+      "showHistory": {
+        "mods": "control",
+        "key": "Y"
+      },
+      "showDownloads": {
+        "mods": ["shift", "control"],
+        "key": "J"
+      },
+      "settings": {
+        "mods": "control",
+        "key": ","
+      }
+    },
+    "notepad": {
+      "newTab": {
+        "mods": "control",
+        "key": "T"
+      },
+      "newWindow": {
+        "mods": "control",
+        "key": "N"
+      }
+    },
+    "sublime-text": {
+      "openRecent": {
+        "mods": "control",
+        "key": "R"
+      }
+    },
+    "klatexformula": {
+      "render": {
+        "mods": "control",
+        "key": "Enter"
+      },
+      "renderClipboardInKlatexformula": {
+        "mods": "${hyper.daemon}",
+        "key": "K",
+        "background": true
+      }
+    },
+    "foxwq": {
+      "backToHome": {
+        "mods": "control",
+        "key": "["
+      },
+      "1stRoom": {
+        "mods": "control",
+        "key": "1"
+      },
+      "2ndRoom": {
+        "mods": "control",
+        "key": "2"
+      },
+      "3rdRoom": {
+        "mods": "control",
+        "key": "3"
+      },
+      "4thRoom": {
+        "mods": "control",
+        "key": "4"
+      },
+      "5thRoom": {
+        "mods": "control",
+        "key": "5"
+      },
+      "6thRoom": {
+        "mods": "control",
+        "key": "6"
+      }
+    },
+    "qqgame:hapdk": {
+      "sitDownAndShowPartnerInfo": {
+        "mods": "control",
+        "key": "E"
+      },
+      "kickOutPartner": {
+        "mods": "control",
+        "key": "R"
+      },
+      "start": {
+        "mods": "control",
+        "key": "S"
+      },
+      "pass": {
+        "mods": "control",
+        "key": "1"
+      },
+      "play": {
+        "mods": "control",
+        "key": "2"
+      },
+      "tip": {
+        "mods": "control",
+        "key": "3"
+      },
+      "lastRound": {
+        "mods": "alt",
+        "key": "Up"
+      }
+    },
+    "qqgame:ddzrpg": {
+      "sitDown": {
+        "mods": "control",
+        "key": "E"
+      }
+    },
+    "qqgame:fxq": {
+      "sitDown": {
+        "mods": "control",
+        "key": "E"
+      }
+    }
+  }
+}
