@@ -26,7 +26,7 @@ Otherwise, if you are using a MacBook-style keyboard, run the following command:
 REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layout" /v "Scancode Map" /t REG_BINARY /d 0000000000000000040000005BE01D001D005BE01DE05CE000000000
 ```
 
-You need to log out and log in to make the changes take effect.
+You can also specify target mappings in [keybindings](./config/keybindings.json). The main script will directly update the registry. Note that you need to log out and log in to make the changes take effect.
 
 ## Acknowledgement
 

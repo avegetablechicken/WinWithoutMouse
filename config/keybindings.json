@@ -1,4 +1,19 @@
 {
+  "remap": {
+    "default": {
+      "left_control": "left_windows",
+      "left_windows": "left_alt",
+      "left_alt": "left_control",
+      "right_alt": "right_control",
+      "right_control": "right_alt"
+    },
+    "fromMac": {
+      "left_control": "left_windows",
+      "left_windows": "left_control",
+      "right_windows": "right_control"
+    }
+  },
+
   "hyper": {
     "hyper": "CapsLock",
     "app": ["alt", "control"],

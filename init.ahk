@@ -101,6 +101,12 @@ filterWebsiteAddedSuffix(Type) {
 
 
 ; ----------------------------------------
+;             remap modifiers
+; ----------------------------------------
+RegistryRemapModifiers(keybindingConfigs.remap)
+
+
+; ----------------------------------------
 ;          hotkeys for autohotkey
 ; ----------------------------------------
 
