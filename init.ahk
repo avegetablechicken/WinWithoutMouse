@@ -1160,42 +1160,42 @@ Hotkey, If,
 BackToHome()
 {
   WinGetPos, winX, winY, winW, WinH, A
-  MouseClick, Left, 0.01 * winW, 0.97 * winH
+  MouseClick, Left, 100, winH - 40
 }
 ExitRoom()
 {
   WinGetPos, winX, winY, winW, WinH, A
-  MouseClick, Left, winW - 150 / 3456 * A_ScreenWidth, winH - 100 / 2160 * A_ScreenHeight
+  MouseClick, Left, winW - 150, winH - 100
 }
 FirstRoom()
 {
   WinGetPos, winX, winY, winW, WinH, A
-  MouseClick, Left, 220 / 3456 * A_ScreenWidth, 0.97 * winH
+  MouseClick, Left, 220, winH - 40
 }
 SecondRoom()
 {
   WinGetPos, winX, winY, winW, WinH, A
-  MouseClick, Left, 420 / 3456 * A_ScreenWidth, 0.97 * winH
+  MouseClick, Left, 420, winH - 40
 }
 ThirdRoom()
 {
   WinGetPos, winX, winY, winW, WinH, A
-  MouseClick, Left, 620 / 3456 * A_ScreenWidth, 0.97 * winH
+  MouseClick, Left, 620, winH - 40
 }
 ForthRoom()
 {
   WinGetPos, winX, winY, winW, WinH, A
-  MouseClick, Left, 820 / 3456 * A_ScreenWidth, 0.97 * winH
+  MouseClick, Left, 820, winH - 40
 }
 FifthRoom()
 {
   WinGetPos, winX, winY, winW, WinH, A
-  MouseClick, Left, 1020 / 3456 * A_ScreenWidth, 0.97 * winH
+  MouseClick, Left, 1020, winH - 40
 }
 SixthRoom()
 {
   WinGetPos, winX, winY, winW, WinH, A
-  MouseClick, Left, 1220 / 3456 * A_ScreenWidth, 0.97 * winH
+  MouseClick, Left, 1220, winH - 40
 }
 
 ; in qqgame
