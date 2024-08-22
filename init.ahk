@@ -1322,9 +1322,9 @@ Hotkey, If,
 ; in klatexformula
 config := keybindingConfigs.hotkeys["klatexformula"]
 
-#If _IsActive("klatexformula")
+#If _IsActive("klatexformula") && WinActive("KLatexFormula")
 #If
-Hotkey, If, _IsActive("klatexformula")
+Hotkey, If, _IsActive("klatexformula") && WinActive("KLatexFormula")
   Remap(config["render"], "{Tab}{Tab}{Enter}")
 Hotkey, If,
 
