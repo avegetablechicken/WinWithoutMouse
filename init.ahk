@@ -1237,9 +1237,9 @@ Class QQGameSitDown
 
 ; in qqgame - 掼蛋
 config := keybindingConfigs.hotkeys["qqgame:hapdk"]
-#If _IsActive("qqgame") && WinActive("掼蛋(淮安跑得快)")
+#If _IsActive("qqgame") && WinActive("掼蛋(淮安跑得快)") && _GetNumberOfTabs() > 1
 #If
-Hotkey, If, _IsActive("qqgame") && WinActive("掼蛋(淮安跑得快)")
+Hotkey, If, _IsActive("qqgame") && WinActive("掼蛋(淮安跑得快)") && _GetNumberOfTabs() > 1
   Bind(config["sitDownAndShowPartnerInfo"], "HAPDKSitDownAndShowPartenerInfo")
 Hotkey, If,
 
